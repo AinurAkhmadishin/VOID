@@ -1,0 +1,38 @@
+.roject-builder {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.add-service {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.service-input {
+    width: 80px;
+    padding: 8px 12px;
+} 
+
+.services-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.services-table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.services-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.no-data {
+    color: #888;
+    font-style: italic;
+}
